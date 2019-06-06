@@ -1,1 +1,12 @@
-// Mixins in here
+.btnFormat(@width; @background; @color; @border-radius; @font;) {
+    width: @width;
+    background: @background;
+    color: @color;
+    border-radius: @border-radius;
+    font-size: @font;
+}
+
+.mobile-mixin(@display; @flex-direction;) {
+    display: @display;
+    flex-direction: @flex-direction;
+}
